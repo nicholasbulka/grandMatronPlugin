@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="129.99988mm"
+   height="130mm"
+   viewBox="0 0 129.99987 130"
+   version="1.1"
+   id="svg10436"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="fullDesignOfMoogKnobForReference.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview10438"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.60098643"
+     inkscape:cx="310.32315"
+     inkscape:cy="549.92922"
+     inkscape:window-width="1514"
+     inkscape:window-height="927"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs10433" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-43.944074,-74.56496)">
+    <path
+       id="ellipse10807"
+       style="font-variation-settings:'wght' 500;fill:#181e25;fill-opacity:1;stroke:none;stroke-width:29.5724"
+       d="m 108.93817,74.56496 a 65.666284,65.000088 0 0 0 -8.76116,0.611822 l -5.648867,11.545366 a 54.274764,54.849924 0 0 0 -6.718541,2.357481 L 76.47586,83.079553 A 65.666284,65.000088 0 0 0 61.76278,94.402091 l 2.921933,13.456229 a 54.274764,54.849924 0 0 0 -1.402569,2.11448 l -13.523006,1.42438 a 65.666284,65.000088 0 0 0 -5.802188,18.90451 l 10.709121,9.17348 a 54.274764,54.849924 0 0 0 -0.0031,0.0898 54.274764,54.849924 0 0 0 0,4.8e-4 l -10.718897,9.14802 a 65.666284,65.000088 0 0 0 5.771319,18.91989 l 13.518888,1.44742 a 54.274764,54.849924 0 0 0 1.389706,2.10776 L 61.6753,184.64187 a 65.666284,65.000088 0 0 0 14.691983,11.35231 l 11.351237,-5.98374 a 54.274764,54.849924 0 0 0 6.704134,2.36948 l 5.628286,11.55978 a 65.666284,65.000088 0 0 0 8.88722,0.62526 65.666284,65.000088 0 0 0 8.76117,-0.61134 l 5.64834,-11.54537 a 54.274764,54.849924 0 0 0 6.71854,-2.35748 l 11.33375,6.00008 a 65.666284,65.000088 0 0 0 14.71308,-11.32302 l -2.92142,-13.45623 a 54.274764,54.849924 0 0 0 1.40206,-2.11399 l 13.523,-1.42439 a 65.666284,65.000088 0 0 0 5.8027,-18.90403 l -10.71015,-9.17396 a 54.274764,54.849924 0 0 0 0.004,-0.0902 l 10.73073,-9.1581 a 65.666284,65.000088 0 0 0 -5.78264,-18.9098 l -13.4767,-1.44311 a 54.274764,54.849924 0 0 0 -1.42571,-2.14234 l 2.94971,-13.458626 A 65.666284,65.000088 0 0 0 141.51419,83.13334 l -11.3183,5.965979 a 54.274764,54.849924 0 0 0 -6.76279,-2.389177 l -5.62005,-11.543926 a 65.666284,65.000088 0 0 0 -8.87488,-0.601256 z m 0,19.324238 a 45.589971,45.675741 0 0 1 45.58966,45.675772 45.589971,45.675741 0 0 1 -45.58966,45.67578 45.589971,45.675741 0 0 1 -45.590168,-45.67578 45.589971,45.675741 0 0 1 45.590168,-45.675772 z" />
+    <ellipse
+       style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:9.207"
+       id="path14373"
+       ry="5.5950236"
+       rx="5.7852573"
+       cy="84.493584"
+       cx="108.93796"
+       inkscape:export-filename="moogDotTopWhite.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

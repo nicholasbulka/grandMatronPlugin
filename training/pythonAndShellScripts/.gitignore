@@ -1,0 +1,7 @@
+*magentaInstruments
+__pycache__
+*.cpy
+mlData/*
+*.DS_Store
+*.idea
+
