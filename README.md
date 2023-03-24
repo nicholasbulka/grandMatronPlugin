@@ -1,6 +1,5 @@
 README.md
 
-
 INTRO:
 
 This is a plugin built using Logic to automate a digital filter at the same rate as an analog Moog filter. The goal was to calibrate them to be as closely in sync regarding latency and frequency as possible. This generated 16 .wav files of about 187 seconds each. One f32 .wav file was generated for the unfiltered audio data, the data fed through a Moog Matriarch and recorded, and a digital low pass filter. Thanks to matkatmusic and the JUCE dsp modules for example code on creating a simple digital low pass filter.
@@ -46,3 +45,5 @@ python code is available in the training directory. Reach out if you'd like the 
 Thanks to the whole NAP Competition for the opportunity, and many unnamed "theaudioprogrammer" Discord chat members for all of their help.
 
 
+This code is licensed under Apache2,
+reference licenses for JUCE, Eigen, SimpleEQ, RTNeural, tensorflow, librosa
