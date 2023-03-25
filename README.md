@@ -16,6 +16,11 @@ After the model was trained, a JUCE plugin was created that multiplies the model
 
 https://youtu.be/Nf-iEypmo1A
 
+**ANALYZING RESULTS:**
+Some metrics and A/B (left/right stereo) testing.
+
+https://www.youtube.com/watch?v=KfRbHora2-o
+
 
 **BUILD**
 To build, all you have to do is load this project in your favorite IDE (CLion/Visual Studio/VSCode/etc) and click 'build' for one of the targets (templates, JUCE examples, Projucer, etc).
