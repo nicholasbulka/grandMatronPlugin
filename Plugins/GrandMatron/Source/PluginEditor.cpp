@@ -158,7 +158,7 @@ GrandMatronAudioProcessorEditor::GrandMatronAudioProcessorEditor (GrandMatronAud
           mAudioProcessor.mApvts, "lowPass Slope", mLowPassSlopeSlider)
 
 {
-    mLowPassFreqSlider.labels.add({0.f/3.f, "20Hz"});
+    mLowPassFreqSlider.labels.add({0.f/3.f, "22Hz"});
     mLowPassFreqSlider.labels.add({1.f/3.f, "200"});
     mLowPassFreqSlider.labels.add({2.f/3.f, "2000"});
     mLowPassFreqSlider.labels.add({3.f/3.f, "20kHz"});

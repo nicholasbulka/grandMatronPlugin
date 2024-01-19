@@ -319,14 +319,22 @@ public:
   float getAdditionalInputGain(){ return 5.f;}
 
   //model defined at compile-time
-  RTNeural::ModelT<float, 2, 1,
-                   RTNeural::DenseT<float, 2, 8>,
-                   RTNeural::TanhActivationT<float, 8>,
-                   RTNeural::Conv1DT<float, 8, 4, 3, 2>,
-                   RTNeural::TanhActivationT<float, 4>,
-                   RTNeural::Conv1DT<float, 4, 2, 3, 35>,
-                   RTNeural::TanhActivationT<float, 2>,
-                   RTNeural::DenseT<float, 2, 1>
+  static const int NN_INPUT_SIZE = 2;
+  static const int NN_OUTPUT_SIZE = 1;
+  alignas (RTNEURAL_DEFAULT_ALIGNMENT) float mInput[NN_INPUT_SIZE];
+
+  RTNeural::ModelT<float, NN_INPUT_SIZE, NN_OUTPUT_SIZE,
+                   RTNeural::GRULayerT<float, 2, 2>,
+                   RTNeural::GRULayerT<float, 2, 2>,
+                   RTNeural::GRULayerT<float, 2, 2>,
+                   RTNeural::GRULayerT<float, 2, 2>,
+                   RTNeural::GRULayerT<float, 2, 2>,
+                   RTNeural::GRULayerT<float, 2, 2>,
+                   RTNeural::GRULayerT<float, 2, 2>,
+                   RTNeural::GRULayerT<float, 2, 2>,
+                   RTNeural::GRULayerT<float, 2, 2>,
+                   RTNeural::GRULayerT<float, 2, 8>,
+                   RTNeural::DenseT<float, 8, NN_OUTPUT_SIZE>
                    > neuralNetT[2];
 
   std::atomic<float>* inGainDbParam = nullptr;

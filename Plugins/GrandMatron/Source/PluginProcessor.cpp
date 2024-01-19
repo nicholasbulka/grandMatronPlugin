@@ -198,7 +198,7 @@ void GrandMatronAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, 
   rightChannelFifo.update(buffer);
 
   //@TODO: parameterize this.
-  float networkFilterBufferPercentage = 0.33f;
+  float networkFilterBufferPercentage = 0.99f;
   float digitalFilterBufferPercentage = 1.f - networkFilterBufferPercentage;
 
   for (int ch = 0; ch < buffer.getNumChannels(); ++ch)
